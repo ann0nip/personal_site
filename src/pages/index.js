@@ -12,7 +12,7 @@ export default function Home() {
       <Header />
       <Container>
         <Main />
-        <Posts />
+        {/* <Posts /> */}
         <Footer />
       </Container>
     </React.Fragment>

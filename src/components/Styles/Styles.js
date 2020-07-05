@@ -106,10 +106,32 @@ export const BlinkingCoursor = styled.span`
 export const BiographyContainer = styled.div`
   display: flex;
   padding: 10px;
+  align-items: center;
+  @media ${devices.mobile} {
+    padding: 0;
+  }
 `
 
 export const Biography = styled.p`
   padding: 15px;
+  @media ${devices.mobile} {
+    font-size: 1.3em;
+    padding: 0;
+  }
 `
 
-export const BiographyImg = styled.img``
+export const BiographyImg = styled.img`
+  @media ${devices.mobile} {
+    display: none;
+  }
+  border: 10px solid;
+  border-image-source: linear-gradient(45deg, #1d6bd7, #6ba368);
+  border-image-slice: 1;
+  max-width: 300px;
+`
+
+export const Credits = styled.footer`
+  text-align: center;
+  opacity: 0.8;
+  margin: 25px 0;
+`
