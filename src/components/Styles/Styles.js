@@ -78,12 +78,12 @@ export const MainContent = styled.header`
   max-width: 1024px;
   margin: 25px auto;
   & .intro,
-  h1 {
+  .name {
     display: inline;
     font-size: 3em;
     margin: 0 10px;
   }
-  & h1 {
+  & .name {
     color: #1d6bd7;
   }
   @media ${devices.mobile} {
@@ -91,7 +91,7 @@ export const MainContent = styled.header`
     & .intro {
       display: block;
     }
-    & h1 {
+    & .name {
       font-size: 4em;
     }
   }
@@ -102,3 +102,14 @@ export const BlinkingCoursor = styled.span`
   animation: ${blinking} 1s step-end infinite;
   margin-left: 5px;
 `
+
+export const BiographyContainer = styled.div`
+  display: flex;
+  padding: 10px;
+`
+
+export const Biography = styled.p`
+  padding: 15px;
+`
+
+export const BiographyImg = styled.img``
