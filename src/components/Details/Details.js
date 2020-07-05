@@ -1,6 +1,6 @@
 import React from "react"
 import { BiographyContainer, Biography, BiographyImg } from "../Styles/Styles"
-import profile from "../../../static/favicon.ico"
+import profile from "../../../static/profile.png"
 export default function Details() {
   return (
     <BiographyContainer>
