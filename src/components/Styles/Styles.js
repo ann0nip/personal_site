@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle, keyframes } from "styled-components"
+import { devices } from "./MediaQueries"
 
 export const GlobalStyle = createGlobalStyle`
     body {
@@ -84,6 +85,15 @@ export const MainContent = styled.header`
   }
   & h1 {
     color: #1d6bd7;
+  }
+  @media ${devices.mobile} {
+    font-size: 0.7em;
+    & .intro {
+      display: block;
+    }
+    & h1 {
+      font-size: 4em;
+    }
   }
 `
 export const BlinkingCoursor = styled.span`
