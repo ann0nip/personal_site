@@ -133,5 +133,5 @@ export const BiographyImg = styled.img`
 export const Credits = styled.footer`
   text-align: center;
   opacity: 0.8;
-  margin: 25px 0;
+  margin: 30px 0;
 `
