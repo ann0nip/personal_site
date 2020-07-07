@@ -7,8 +7,8 @@ export default function Details() {
       <Biography>
         I'm a programmer who lives in Córdoba, Argentina. I'm a curious guy that
         is focused on JavaScript, specifically in React and its environment.
-        Create cool stuff, travel, and teach are a few of the activities that I
-        enjoy the most. 👨🏻‍💻
+        Create cool stuff, travel, and teaching are a few of the activities that
+        I enjoy the most. 👨🏻‍💻
       </Biography>
       <BiographyImg src={profile}></BiographyImg>
     </BiographyContainer>
