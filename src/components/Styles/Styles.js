@@ -134,4 +134,14 @@ export const Credits = styled.footer`
   text-align: center;
   opacity: 0.8;
   margin: 30px 0;
+  & div {
+    display: inline;
+  }
+  & a {
+    text-decoration: none;
+  }
+  & canvas {
+    transform: rotate(180deg);
+    position: fixed !important;
+  }
 `

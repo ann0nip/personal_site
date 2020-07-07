@@ -17,7 +17,7 @@ export default function Header() {
             <a href="/">Home</a>
           </NavContentMenuItem>
           <NavContentMenuItem>
-            <a href="#">Blog</a>
+            <a href="/">Blog</a>
           </NavContentMenuItem>
         </NavContentMenuList>
       </NavContent>
