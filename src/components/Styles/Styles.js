@@ -12,9 +12,15 @@ export const GlobalStyle = createGlobalStyle`
     }
 `
 export const Container = styled.section`
-  // display: flex;
-  // flex: 1;
-  // flex-direction: column;
+  & .magic {
+    position: absolute;
+    top: 0;
+  }
+  @media ${devices.mobile} {
+    & .magic {
+      display: none;
+    }
+  }
 `
 
 export const Nav = styled.nav`
@@ -166,14 +172,5 @@ export const Credits = styled.footer`
   }
   & a {
     text-decoration: none;
-  }
-  & canvas {
-    transform: rotate(180deg);
-    position: fixed !important;
-  }
-  @media ${devices.mobile} {
-    & canvas {
-      display: none;
-    }
   }
 `

@@ -11,6 +11,7 @@ export default function Home() {
       <GlobalStyle />
       <Header />
       <Container>
+        <canvas id="magic" className="magic"></canvas>
         <Main />
         {/* <Posts /> */}
       </Container>
