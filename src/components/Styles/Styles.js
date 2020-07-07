@@ -86,6 +86,33 @@ export const MainContent = styled.header`
   & .name {
     color: #1d6bd7;
   }
+  & a {
+    padding: 10px;
+  }
+  & a.twitter {
+    color: #1da1f2;
+  }
+  & a.twitter:hover {
+    opacity: 0.8;
+  }
+  & a.instagram {
+    color: #c13584;
+  }
+  & a.instagram:hover {
+    opacity: 0.8;
+  }
+  & a.linkedin {
+    color: #0e76a8;
+  }
+  & a.linkedin:hover {
+    opacity: 0.8;
+  }
+  & a.github {
+    color: #333;
+  }
+  & a.github:hover {
+    opacity: 0.8;
+  }
   @media ${devices.mobile} {
     font-size: 0.7em;
     & .intro {
