@@ -144,4 +144,9 @@ export const Credits = styled.footer`
     transform: rotate(180deg);
     position: fixed !important;
   }
+  @media ${devices.mobile} {
+    & canvas {
+      display: none;
+    }
+  }
 `
