@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import {
   Nav,
   NavContent,
@@ -14,10 +15,10 @@ export default function Header() {
         <NavContentLogo> {"/>"} </NavContentLogo>
         <NavContentMenuList>
           <NavContentMenuItem>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </NavContentMenuItem>
           <NavContentMenuItem>
-            <a href="/">Blog</a>
+            <Link to="/links">Links</Link>
           </NavContentMenuItem>
         </NavContentMenuList>
       </NavContent>

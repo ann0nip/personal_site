@@ -6,6 +6,7 @@ export default function Footer() {
   const { width } = useWindowSize()
   const [start, setStart] = useState(false)
   const [height, setHeight] = useState(0)
+
   function mouseEnter(e) {
     setStart(true)
     setHeight(document.body.scrollHeight)
@@ -31,11 +32,11 @@ export default function Footer() {
 
       return () => confetti.clear()
     }
-  }, [start])
+  }, [start, width, height])
   return (
     <Credits>
       © 2020 @Ann0nip • Crafted with{" "}
-      <div onMouseEnter={e => mouseEnter(e)}>
+      <div role="img" onMouseEnter={e => mouseEnter(e)}>
         <span role="img" aria-label="magic">
           🧙🏻‍♂️
         </span>

@@ -174,3 +174,22 @@ export const Credits = styled.footer`
     text-decoration: none;
   }
 `
+
+export const Ul = styled.ul`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  font-size: 1.5em;
+`
+
+export const Li = styled.li`
+  list-style: none;
+  margin: 15px;
+  & a {
+    text-decoration: none;
+  }
+  & a:hover {
+    border-bottom: 3px solid #c83e4d;
+  }
+`
