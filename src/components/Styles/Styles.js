@@ -148,7 +148,7 @@ export const BiographyContainer = styled.div`
 export const Biography = styled.p`
   padding: 15px;
   @media ${devices.mobile} {
-    font-size: 1.3em;
+    font-size: 1.5em;
     padding: 0;
   }
 `
@@ -165,6 +165,7 @@ export const BiographyImg = styled.img`
 
 export const Credits = styled.footer`
   text-align: center;
+  font-size: 1em;
   opacity: 0.8;
   margin: 30px 0;
   & div {
@@ -178,14 +179,14 @@ export const Credits = styled.footer`
 export const Ul = styled.ul`
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 0;
-  font-size: 1.5em;
+  font-size: 1.3em;
 `
 
 export const Li = styled.li`
   list-style: none;
-  margin: 15px;
+  margin: 1em;
+  margin-left: 2em;
   & a {
     text-decoration: none;
   }

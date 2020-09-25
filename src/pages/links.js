@@ -11,24 +11,36 @@ export default function links() {
         <Ul>
           <Li>
             <a href="https://www.binance.com/en/register?ref=U0B3Q8J5">
+              <span role="img" aria-label="star">
+                ⭐️
+              </span>
               Registrate gratis en Binance y con 10% de descuento en las
               comisiones de transacciones.
             </a>
           </Li>
           <Li>
             <a href="http://crazy911.com/referrals/?ref=share82E-QQ3&lang=en">
+              <span role="img" aria-label="star">
+                ⭐️
+              </span>
               Crea una cuenta gratuita en un banco suizo [Dukascopy]
             </a>
           </Li>
           <Li>
             <a href="https://brave.com/bjy584">
               {" "}
+              <span role="img" aria-label="star">
+                ⭐️
+              </span>
               Navega ¡más rápido, más seguro y gana dinero! [Brave]
             </a>
           </Li>
           <Li>
             {/* * After your friend signs up and receives a total of 1000.00 USD, you both earn a 25.00 USD reward */}
             <a href="http://share.payoneer.com/nav/FsnFkPs4nERNvfF9uqhjf1Hsk9tOd4PWGFlVcY5Al2JU08hljkkH5VmlO6IADUPXzM8cHB9rWZ7_CsGGE2mzyQ2">
+              <span role="img" aria-label="star">
+                ⭐️
+              </span>
               Registrate gratis en Payoneer y llevate 25 U$D *
             </a>
           </Li>
