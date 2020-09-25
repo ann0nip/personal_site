@@ -18,7 +18,7 @@ export default function Header() {
             <Link to="/">Home</Link>
           </NavContentMenuItem>
           <NavContentMenuItem>
-            <Link to="/links">Links</Link>
+            <Link to="/links">Referral Links </Link>
           </NavContentMenuItem>
         </NavContentMenuList>
       </NavContent>
